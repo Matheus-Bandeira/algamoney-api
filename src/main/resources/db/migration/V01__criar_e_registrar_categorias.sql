@@ -1,11 +1,10 @@
-CREATE TABLE categoria(
-					codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
-					nome varchar(50) NOT NULL
-					) ENGINE=innoDB DEFAULT CHARSET=utf8;
-				
+CREATE TABLE categoria (
+	codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO CATEGORIA(NOME) VALUES ('Lazer');
-INSERT INTO CATEGORIA(NOME) VALUES ('Alimentação');
-INSERT INTO CATEGORIA(NOME) VALUES ('Supermercado');
-INSERT INTO CATEGORIA(NOME) VALUES ('Farmácia');
-INSERT INTO CATEGORIA(NOME) VALUES ('Outros');
+INSERT INTO categoria (nome) values ('Lazer');
+INSERT INTO categoria (nome) values ('Alimentação');
+INSERT INTO categoria (nome) values ('Supermercado');
+INSERT INTO categoria (nome) values ('Farmácia');
+INSERT INTO categoria (nome) values ('Outros');
